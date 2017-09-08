@@ -19,6 +19,9 @@ namespace ConsumeCrude.Controllers.api
                 return BadRequest("Invalid student.");
             using (var context = new StudentEntities())
             {
+
+
+
                 context.stud_Details.Add(new stud_Details()
                 {
                     ID = s.ID,
